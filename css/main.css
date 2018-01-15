@@ -1,1 +1,143 @@
 /* Los estilos de tu proyecto */
+h2, h3, h4, h5 {
+  color: white;
+}
+
+.navbar {
+  margin:0;
+  padding:0;
+}
+
+.image-container {
+  background-image: url("../assets/images/taxi.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.jumbotron {
+  background-color: #f9ba21;
+  color:white;
+  height: 50vh;
+  margin-top: 25vh;
+}
+
+ div > .jumbotron {
+  margin: 20vh auto;
+  padding: 0;
+}
+
+.up {
+  float: left;
+  margin: 1vh;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.btn  {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 2vh;
+  height: 5vh;
+  text-align: center;
+}
+
+.yellow-container {
+  height:79vh;
+  background-color: #f9ba21;
+}
+
+.iphone {
+  margin: 0 auto;
+  height: 68vh;
+  padding: 1vh;
+}
+
+.col-md-9 {
+  border: 1px white solid;
+  margin:5vh auto;
+}
+
+.img2-container {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: auto;
+}
+
+div > #transparent {
+  background-color: rgba(15, 13, 7, 0.5);
+  color:white;
+  height: 35vh;
+  margin-top: 0;
+}
+
+ #yellow { /*botón color*/
+  background-color: #f9ba21;
+}
+
+.left {
+  margin-right: 0;
+  padding: 0;
+}
+
+.btn-group {
+  margin-left: 23vh;
+}
+
+footer {
+  background-color:#2b2b2b;
+  bottom: 0;
+  height: 70vh;
+  position: relative;
+  padding: 10vh;
+}
+
+footer .col-md-3 {
+  position: relative;
+  height: 50vh;
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+}
+
+.bottom2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.fa {
+  color: white;
+}
+
+.col-md-3 > p {
+  color:white;
+}
+
+.copy {
+  background-color: #2b2b2b;
+  color: white;
+  height: 3vh;
+}
+
+/*media queries*/
+
+/*Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 320px) and (max-width:767px) ) {
+
+
+  .yellow-container {
+    height:100vh;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up)* 991/
+@media (min-width: 768px) {
+
+}
